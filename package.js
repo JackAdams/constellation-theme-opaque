@@ -13,7 +13,7 @@ Package.onUse(function(api) {
   api.use('constellation:console@1.2.3', 'client');
 
   api.addFiles('theme-opaque.css','client');
-  api.addFiles('viewmodel.js','client');
+  api.addFiles('theme-opaque.js','client');
   
   api.imply('constellation:console');
 });
