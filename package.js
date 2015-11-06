@@ -8,9 +8,9 @@ Package.describe({
 });
 
 Package.onUse(function(api) {
-  api.versionsFrom('1.1');
+  api.versionsFrom('1.0');
 
-  api.use('constellation:console@1.2.3', 'client');
+  api.use('constellation:console@1.3.0', 'client');
 
   api.addFiles('theme-opaque.css','client');
   api.addFiles('theme-opaque.js','client');
